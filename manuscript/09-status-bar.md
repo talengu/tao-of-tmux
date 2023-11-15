@@ -115,7 +115,7 @@ You can do this with anything, for instance, try adding [`uptime`](https://linux
 This could be done by adding `#(uptime)` to your status line. Typically the
 output is pretty long, so trim it down by doing something like this:
 
-`#(uptime | cut -f 4-5 -d " " | cut -f 1 -d ",")``
+`#(uptime | cut -f 4-5 -d " " | cut -f 1 -d ",")`
 
 In the next section, we go into how you can style (color) tmux.
 
